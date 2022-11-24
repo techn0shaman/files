@@ -1,0 +1,64 @@
+
+#version 330 core
+
+uniform vec4 iResolution;
+uniform vec4 iMouse;
+uniform vec4 iGlobalTime;
+
+uniform sampler2D iTexture0; // Albedo
+
+uniform mat4 iModelMatrix;
+uniform mat4 iViewMatrix;
+uniform mat4 iProjectionMatrix;
+uniform mat4 iInverseViewMatrix;
+uniform mat4 iModelViewMatrix;
+uniform mat4 iModelViewProjectionMatrix;
+uniform mat4 iTransposeInverseModelMatrix;
+uniform mat4 iTransposeInverseModelViewMatrix;
+
+// BEGIN --- Input Interpolants --- 
+	smooth in vec3 iPosition;
+	smooth in vec3 iPositionWorld;
+	smooth in vec3 iPositionCamera;
+	smooth in vec3 iNormal;
+	smooth in vec3 iNormalWorld;
+	smooth in vec3 iNormalCamera;
+	smooth in vec2 iTexCoord0;
+	smooth in vec2 iTexCoord1;
+// END --- Input Interpolants --- 
+
+// BEGIN --- Framebuffer Outputs --- 
+	layout(location = 0) out vec4 out_color;
+// END --- Framebuffer Outputs --- 
+
+/*
+void main(void) {
+	vec4 col = texture(iTexture0, iTexCoord0.xy);
+	float i = abs(sin(15.0 * col.w + iGlobalTime.x * 6.0) * 3.0 * col.w) * 0.7;
+	out_color = vec4(i * 0.2, i * 0.48, i, 0.0);
+}
+*/
+void main(void)
+{
+
+	vec2 uv =  iTexCoord0.xy/-1.0;
+	
+    
+
+    float yOffset = iGlobalTime.x*0.5;
+    float y = mod(uv.y+yOffset,1.0);
+    
+
+ 
+	float red 	=   texture(iTexture0, vec2(uv.x,y)).r;
+	float green = 	texture(iTexture0, vec2(uv.x,y)).g;
+	float blue 	=	  texture(iTexture0, vec2(uv.x,y)).b;
+  float alpha 	=	  texture(iTexture0, vec2(uv.x,y)).a;
+	
+	
+	out_color = vec4(red,green,blue,alpha);
+}
+
+
+
+
