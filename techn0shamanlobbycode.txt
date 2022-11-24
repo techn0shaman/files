@@ -1,0 +1,189 @@
+<!-- Written with Janus VR.  URL: https://www.techn0shaman.one -->
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+</head>
+<body>
+<!--
+<FireBoxRoom>
+<Assets>
+<AssetImage id="https://i.imgur.com/MMwq0Ua.png" src="https://i.imgur.com/MMwq0Ua.png" />
+<AssetImage id="sky_left" src="kiara_1_dawn_8k.left.jpg" tex_clamp="true" />
+<AssetImage id="sky_right" src="kiara_1_dawn_8k.right.jpg" tex_clamp="true" />
+<AssetImage id="https://i.imgur.com/6hzhmN0.png" src="https://i.imgur.com/6hzhmN0.png" />
+<AssetImage id="https://i.imgur.com/ntywIWc.gif" src="https://i.imgur.com/ntywIWc.gif" />
+<AssetImage id="https://i.imgur.com/d6HxvUq.png" src="https://i.imgur.com/d6HxvUq.png" />
+<AssetImage id="https://i.imgur.com/SLTAYQ5.gif" src="https://i.imgur.com/SLTAYQ5.gif" />
+<AssetImage id="https://i.imgur.com/i644i0V.jpg" src="https://i.imgur.com/i644i0V.jpg" />
+<AssetImage id="https://i.imgur.com/O2oqexF.png" src="https://i.imgur.com/O2oqexF.png" />
+<AssetImage id="https://i.imgur.com/dyswUaO.jpg" src="https://i.imgur.com/dyswUaO.jpg" />
+<AssetImage id="https://i.imgur.com/Sup8UQP.jpg" src="https://i.imgur.com/Sup8UQP.jpg" />
+<AssetImage id="http://cybergaia.ca/VirtualReality/TECHNOSHAMANLOBBY/nsfw.jpg" src="http://cybergaia.ca/VirtualReality/TECHNOSHAMANLOBBY/nsfw.jpg" />
+<AssetImage id="https://i.imgur.com/PMEOqM1.png" src="https://i.imgur.com/PMEOqM1.png" />
+<AssetImage id="http://techn0shaman.one/misc/newmexicosign.png" src="http://techn0shaman.one/misc/newmexicosign.png" />
+<AssetImage id="http://techn0shaman.one/Images/.gif" src="http://techn0shaman.one/Images/.gif" />
+<AssetImage id="http://techn0shaman.one/misc/sandia.png" src="http://techn0shaman.one/misc/sandia.png" />
+<AssetImage id="https://i.imgur.com/vspMM9n.png" src="https://i.imgur.com/vspMM9n.png" />
+<AssetImage id="sky_back" src="kiara_1_dawn_8k.back.jpg" tex_clamp="true" />
+<AssetImage id="sky_up" src="kiara_1_dawn_8k.top.jpg" tex_clamp="true" />
+<AssetImage id="https://i.imgur.com/Yjs5NNb.jpg" src="https://i.imgur.com/Yjs5NNb.jpg" />
+<AssetImage id="sky_front" src="kiara_1_dawn_8k.front.jpg" tex_clamp="true" />
+<AssetImage id="https://i.imgur.com/z9PCjXz.png" src="https://i.imgur.com/z9PCjXz.png" />
+<AssetImage id="https://i.imgur.com/Upsuikt.jpg" src="https://i.imgur.com/Upsuikt.jpg" />
+<AssetImage id="https://i.imgur.com/P0wmp3x.gif" src="https://i.imgur.com/P0wmp3x.gif" />
+<AssetImage id="https://i.imgur.com/IhqU2tD.jpg" src="https://i.imgur.com/IhqU2tD.jpg" />
+<AssetImage id="http://techn0shaman.one/Images/seadoos.png" src="http://techn0shaman.one/Images/seadoos.png" />
+<AssetImage id="https://i.imgur.com/DTW7xtk.png" src="https://i.imgur.com/DTW7xtk.png" />
+<AssetImage id="https://i.imgur.com/UTGyljl.jpg" src="https://i.imgur.com/UTGyljl.jpg" />
+<AssetImage id="http://techn0shaman.one/misc/toronto.png" src="http://techn0shaman.one/misc/toronto.png" />
+<AssetImage id="https://i.imgur.com/tpXxE6Y.png" src="https://i.imgur.com/tpXxE6Y.png" />
+<AssetImage id="https://i.imgur.com/1poD8uR.gif" src="https://i.imgur.com/1poD8uR.gif" />
+<AssetImage id="sky_down" src="kiara_1_dawn_8k.bottom.jpg" tex_clamp="true" />
+<AssetImage id="https://i.imgur.com/kCU6Hr1.png" src="https://i.imgur.com/kCU6Hr1.png" />
+<AssetImage id="https://i.imgur.com/VsJAmJy.png" src="https://i.imgur.com/VsJAmJy.png" />
+<AssetImage id="https://i.imgur.com/UQhRdkp.png" src="https://i.imgur.com/UQhRdkp.png" />
+<AssetImage id="https://i.imgur.com/JXjcpUt.gif" src="https://i.imgur.com/JXjcpUt.gif" />
+<AssetImage id="https://i.imgur.com/wTYh8kh.png" src="https://i.imgur.com/wTYh8kh.png" />
+<AssetImage id="https://i.imgur.com/YmAHwOA.png" src="https://i.imgur.com/YmAHwOA.png" />
+<AssetImage id="Annotated_skybox_Irradiance" src="http://techn0shaman.one/cubemap_irradiance64.dds" tex_clamp="true" />
+<AssetImage id="https://i.imgur.com/48c87Hd.gif" src="https://i.imgur.com/48c87Hd.gif" />
+<AssetImage id="Annotated_skybox_radiance" src="http://techn0shaman.one/cubemap_radiance256.dds" tex_clamp="true" />
+<AssetImage id="https://i.imgur.com/qhI5Iqs.png" src="https://i.imgur.com/qhI5Iqs.png" />
+<AssetObject id="MOON" src="http://s3-us-west-2.amazonaws.com/janusvr/photospheres/sphere.obj" />
+<AssetObject id="http://techn0shaman.one/misc/dome/speakrs.obj" src="http://techn0shaman.one/misc/dome/speakrs.obj" />
+<AssetObject id="http://techn0shaman.one/misc/cactus/pcactus/finalcactus.fbx" src="http://techn0shaman.one/misc/cactus/pcactus/finalcactus.fbx" />
+<AssetObject id="water" src="http://www.geniusvr.com/teststuff/palm/hugetileingwater.dae" />
+<AssetObject id="ring" src="http://techn0shaman.one/misc/technoring/technoring.dae" />
+<AssetObject id="http://techn0shaman.one/misc/trees/Horsetail/Horsetail.obj" src="http://techn0shaman.one/misc/trees/Horsetail/Horsetail.obj" />
+<AssetObject id="mysterybox" src="http://techn0shaman.one/misc/crash/mysterybox/box.obj" />
+<AssetObject id="http://techn0shaman.one/misc/mountainwall/mountain%20wall.dae.gz" src="http://techn0shaman.one/misc/mountainwall/mountain%20wall.dae.gz" />
+<AssetObject id="cntower" src="http://techn0shaman.one/blender/psychedelicawareness/cntower/dae/CNTOWERNEW.obj" mtl="http://techn0shaman.one/blender/psychedelicawareness/cntower/dae/CNTOWERNEW.mtl" />
+<AssetObject id="boat" src="http://cybergaia.ca/VirtualReality/TECHNOSHAMANLOBBY/lobby/seadoo/doo.dae" />
+<AssetObject id="psytranceportal" src="http://cybergaia.ca/VirtualReality/TECHNOSHAMANLOBBY/models/blocks/psytrancegate/model.fbx" />
+<AssetObject id="http://techn0shaman.one/sketchup/hive/arch/Ekotemplet.dae" src="http://techn0shaman.one/sketchup/hive/arch/Ekotemplet.dae" />
+<AssetObject id="dock" src="http://techn0shaman.one/misc/dock/newdock.obj" />
+<AssetObject id="lapras" src="lapras" />
+<AssetObject id="shaderdome" src="http://demos.janusvr.com/firefox/City/DizzketCity/Shaderdome.obj" />
+<AssetObject id="http://techn0shaman.one/misc/cactus/zia.dae" src="http://techn0shaman.one/misc/cactus/zia.dae" />
+<AssetObject id="concord" src="http://techn0shaman.one/misc/concord.fbx" />
+<AssetObject id="http://techn0shaman.one/misc/Wumpa%20Fruit/wumpa_fruit.obj" src="http://techn0shaman.one/misc/Wumpa%20Fruit/wumpa_fruit.obj" />
+<AssetObject id="http://techn0shaman.one/misc/Ghost/Ghost.DAE" src="http://techn0shaman.one/misc/Ghost/Ghost.DAE" />
+<AssetObject id="http://techn0shaman.one/blender/zachspatio/ZACHSPATIO/patioscan.obj.gz" src="http://techn0shaman.one/blender/zachspatio/ZACHSPATIO/patioscan.obj.gz" />
+<AssetObject id="http://techn0shaman.one/misc/trees/Blue%20GrubTub%20Fungus/Blue%20GrubTub%20Fungus.obj" src="http://techn0shaman.one/misc/trees/Blue%20GrubTub%20Fungus/Blue%20GrubTub%20Fungus.obj" />
+<AssetObject id="trees" src="http://techn0shaman.one/misc/dock/newdocktrees.obj" />
+<AssetScript src="http://techn0shaman.one/mysterbox.js" />
+<AssetScript src="http://techn0shaman.one/ghostscript.js" />
+<AssetScript src="http://techn0shaman.one/lobbyscript.js" />
+<AssetShader id="tydyshader" src="http://demos.janusvr.com/firefox/City/DizzketCity/portal_fragTieDy.txt" />
+<AssetShader id="nightsky" src="http://techn0shaman.one/misc/shaders/nightsky.txt" />
+<AssetShader id="watershader" src="http://techn0shaman.one/misc/shaders/water.txt" />
+<AssetSound id="crickets" src="http://techn0shaman.one/sounds/crickets.mp3" />
+<AssetSound id="ghost_snd" src="http://techn0shaman.one/haloghostsound.mp3" />
+<AssetSound id="music" src="http://cybergaia.ca/VirtualReality/TECHNOSHAMANLOBBY/lobby/seadoo/seadoomotor.mp3" />
+<AssetSound id="hum" src="http://195.154.166.226:8000/;sid=1" />
+</Assets>
+<Room visible="false" cursor_visible="false" pos="-6.25 51.950001 85.629997" xdir="1 0 0.000001" zdir="-0.000001 0 1" skybox_right_id="sky_right" skybox_left_id="sky_left" skybox_up_id="sky_up" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_back_id="sky_back" cubemap_radiance_id="Annotated_skybox_radiance" cubemap_irradiance_id="Annotated_skybox_Irradiance" far_dist="100000" gravity="-15" run_speed="12" fog="true" fog_density="0.0002" fog_col="#ffffff">
+<Link js_id="technoshaman_999-http://www.techn0shaman.one/blender/PEIbeach/PEIBEACH.html" pos="-26.800001 52.600002 91.099998" xdir="0.258819 0 -0.965926" zdir="0.965926 0 0.258819" scale="1.8 2.5 1" col="#40c080" url="http://www.techn0shaman.one/blender/PEIbeach/PEIBEACH.html" />
+<Link js_id="technoshaman_999-http://vesta.janusvr.com/technoshaman/bikinibottom" pos="-14.8 52.700001 80.200005" scale="1.8 2.5 1" col="#40c0c0" url="http://vesta.janusvr.com/technoshaman/bikinibottom" title="bikinibottom | VESTA" />
+<Link js_id="technoshaman_999-http://www.techn0shaman.one/omreunion/omreunion.html" pos="-27.200001 52.5 95.400002" xdir="0.005377 0 -0.999986" zdir="0.999986 0 0.005377" scale="1.8 2.5 1" col="#0040c0" url="http://www.techn0shaman.one/omreunion/omreunion.html" />
+<Link js_id="TECHN0SHAMAN-http://techn0shaman.one/blender/beachouse/technoshamanbeach.html" pos="-20.299999 53.600002 78.5" xdir="0.428409 0 0.903585" zdir="-0.903585 0 0.428409" scale="1.8 2.5 1" col="#ffc040" url="http://techn0shaman.one/blender/beachouse/technoshamanbeach.html" />
+<Link js_id="technoshaman_999-http://vesta.janusvr.com/technoshaman/technoshamanburningman" pos="-19 52.599998 87.700005" xdir="-0.485255 0 0.874373" zdir="-0.874373 0 -0.485255" scale="1.8 2.5 1" col="#40c0c0" url="http://vesta.janusvr.com/technoshaman/technoshamanburningman" title="technoshamanburningman | VESTA" />
+<Link js_id="technoshaman_999-http://vesta.janusvr.com/technoshaman/thirdlake" pos="-33.200001 53.599998 89.200005" xdir="-0.657482 0 0.75347" zdir="-0.75347 0 -0.657482" scale="1.8 2.5 1" col="#c0c040" url="http://vesta.janusvr.com/technoshaman/thirdlake" title="thirdlake | VESTA" />
+<Link js_id="technoshaman_999-http://vesta.janusvr.com/technoshaman2/neutral" pos="-18.9 52.400002 91.599998" xdir="0.752568 -0.026381 0.657986" ydir="0.053212 0.998366 -0.020833" zdir="-0.656361 0.050691 0.752742" scale="1.8 2.5 1" col="#8040c0" url="http://vesta.janusvr.com/technoshaman2/neutral" title="neutral | VESTA" />
+<Link js_id="technoshaman_999-http://vesta.janusvr.com/technoshaman/techn0shaman-utopia" pos="-26.5 53.200001 86.900002" xdir="-0.47134 0 -0.881952" zdir="0.881952 0 -0.47134" scale="1.8 2.5 1" col="#4040c0" url="http://vesta.janusvr.com/technoshaman/techn0shaman-utopia" />
+<Link js_id="technoshaman-http://techn0shaman.one/NSFW/kinkden.html" pos="-2.6 51.900002 80.300003" xdir="0.983042 0 -0.18338" zdir="0.18338 0 0.983042" scale="1.8 2.5 1" col="#c04040" url="http://techn0shaman.one/NSFW/kinkden.html" />
+<Link js_id="technoshaman_999-http://www.techn0shaman.one/sketchup/nocturne/nocturne.html" pos="-17.1 52.299999 92.400002" xdir="0.960398 0 0.278633" zdir="-0.278633 0 0.960398" scale="1.8 2.5 1" col="#c040c0" url="http://www.techn0shaman.one/sketchup/nocturne/nocturne.html" />
+<Link js_id="technoshaman_999-http://techn0shaman.one/sketchup/poolhouse/poolhouse/poolhouse5..html" pos="-19.400002 52.100002 99" xdir="-0.995802 0 0.091531" zdir="-0.091531 0 -0.995802" scale="1.8 2.5 1" col="#4080c0" url="http://techn0shaman.one/sketchup/poolhouse/poolhouse/poolhouse5..html" />
+<Link js_id="technoshaman_999-http://cybergaia.ca/VirtualReality/OMFESTIVAL/SPORE.html" pos="-26.6 52.399998 97.700005" xdir="-0.489997 0 -0.871724" zdir="0.871724 0 -0.489997" scale="1.8 2.5 1" col="#26002c" url="http://cybergaia.ca/VirtualReality/OMFESTIVAL/SPORE.html" />
+<Link js_id="technoshaman_999-http://vesta.janusvr.com/technoshaman/technocabin" pos="-17.1 52.599998 86.400002" xdir="-0.99984 0 -0.017875" zdir="0.017875 0 -0.99984" scale="1.8 2.5 1" col="#40c080" url="http://vesta.janusvr.com/technoshaman/technocabin" />
+<Link js_id="technoshaman_999-http://www.techn0shaman.one/blender/alphacentauri/index.html" pos="-21 53.200001 83" xdir="0.258819 0 0.965926" zdir="-0.965926 0 0.258819" scale="1.8 2.5 1" col="#80c040" url="http://www.techn0shaman.one/blender/alphacentauri/index.html" title="terranuva | Vesta: the JanusVR hosting system" />
+<Link pos="-2.6 51.900002 80.300003" xdir="0.983042 0 -0.18338" zdir="0.18338 0 0.983042" scale="1.8 2.5 1" col="#c04040" url="http://techn0shaman.one/NSFW/kinkden.html" />
+<Link js_id="technoshaman_999-http://vesta.janusvr.com/technoshaman/techn0terrain1" pos="-10.9 52.600002 81.099998" xdir="0.077365 0.004659 0.996992" ydir="-0.110011 0.993923 0.003892" zdir="-0.990915 -0.109981 0.077407" scale="1.8 2.5 1" col="#4040c0" url="http://vesta.janusvr.com/technoshaman/techn0terrain1" />
+<Link js_id="technoshaman_999-http://www.techn0shaman.one/blender/hallowseve/romdae/index.html" pos="-27.9 53.400002 86.300003" xdir="-0.955275 0 0.295719" zdir="-0.295719 0 -0.955275" scale="1.8 2.5 1" col="#c04080" url="http://www.techn0shaman.one/blender/hallowseve/romdae/index.html" />
+<Link js_id="technoshaman_999-http://cybergaia.ca/VirtualReality/TerenceMckenna/temple.html" pos="-22 52.200001 98.800003" xdir="-0.999843 0 0.017742" zdir="-0.017742 0 -0.999843" scale="1.8 2.5 1" col="#006a40" url="http://cybergaia.ca/VirtualReality/TerenceMckenna/temple.html" />
+<Link js_id="technoshaman_999-http://vesta.janusvr.com/technoshaman/raynercreek" pos="-29.9 53.5 87" xdir="-0.946503 0.106127 0.304743" ydir="0.112187 0.993684 0.002391" zdir="-0.302565 0.036451 -0.952431" scale="1.8 2.5 1" col="#c04040" url="http://vesta.janusvr.com/technoshaman/raynercreek" />
+<Link js_id="technoshaman -http://cybergaia.ca/VirtualReality/SUBTERRA/subterrabytechnoshaman.html" pos="-14.5 52.099998 90.300003" xdir="0.280647 0 -0.959811" zdir="0.959811 0 0.280647" scale="1.8 2.5 1" col="#c04040" url="http://cybergaia.ca/VirtualReality/SUBTERRA/subterrabytechnoshaman.html" />
+<Link js_id="technoshaman_999-http://www.techn0shaman.one/newapartment/DAE/condocode14.html" pos="-26.300001 52.600002 88.800003" xdir="0.25001 0 -0.968243" zdir="0.968243 0 0.25001" scale="1.9 2.5 1" col="#7438ae" url="http://www.techn0shaman.one/newapartment/DAE/condocode14.html" />
+<Link js_id="technoshaman_999-http://techn0shaman.one/PRIVATE/private.html" pos="-27.200001 52.5 93.300003" xdir="0 0 -1" zdir="1 0 0" scale="1.8 2.5 1" col="#8040c0" url="http://techn0shaman.one/PRIVATE/private.html" />
+<Link js_id="technoshaman_999-http://www.techn0shaman.one/blender/psychedelicawareness/psychlounge.html" pos="-19.6 52.400002 89.800003" xdir="-0.003687 0 0.999993" zdir="-0.999993 0 -0.003687" scale="1.8 2.5 1" col="#d3c000" url="http://www.techn0shaman.one/blender/psychedelicawareness/psychlounge.html" />
+<Link js_id="technoshaman_999-http://vesta.janusvr.com/technoshaman/technoringworld" pos="-31.700001 53.600002 88" xdir="-0.828741 0 0.559632" zdir="-0.559632 0 -0.828741" scale="1.8 2.5 1" col="#c08040" url="http://vesta.janusvr.com/technoshaman/technoringworld" title="technoringworld | VESTA" />
+<Link js_id="TECHN0SHAMAN-http://techn0shaman.one/sketchup/swamp/swamp.html" pos="-23 54.5 75.800003" xdir="0.856293 0 0.516491" zdir="-0.516491 0 0.856293" scale="1.8 2.6 1" col="#40c080" url="http://techn0shaman.one/sketchup/swamp/swamp.html" />
+<Link js_id="technoshaman_999-http://techn0shaman.one/blender/MarsColonyv2/marscolony.html" pos="-14.9 52.299999 87.200005" xdir="-0.738893 0 -0.673823" zdir="0.673823 0 -0.738893" scale="1.8 2.5 1" col="#4080c0" url="http://techn0shaman.one/blender/MarsColonyv2/marscolony.html" />
+<Link js_id="technoshaman_999-http://www.techn0shaman.one/blender/beach/beachroom.html" pos="-12.400001 52.299999 84.400002" xdir="0.194091 0.009153 0.980941" ydir="-0.045293 0.998974 -0.000359" zdir="-0.979937 -0.04436 0.194306" scale="1.8 2.5 1" col="#c04080" url="http://www.techn0shaman.one/blender/beach/beachroom.html" title="Beach Room" />
+<Link js_id="TECHN0SHAMAN-http://techn0shaman.one/blender/innerplanet/nekuoutpost.html" pos="-19.9 53.299999 80.400002" xdir="-0.490608 0 0.871381" zdir="-0.871381 0 -0.490608" scale="1.8 2.5 1" col="#c0c040" url="http://techn0shaman.one/blender/innerplanet/nekuoutpost.html" />
+<Link js_id="technoshaman_999-http://vesta.janusvr.com/technoshaman/technocaveonmars" pos="-18.300001 52.799999 82.200005" xdir="0.702823 0.023796 -0.710967" ydir="-0.014685 0.999713 0.018943" zdir="0.711213 -0.002873 0.70297" scale="1.8 2.5 1" col="#40c040" url="http://vesta.janusvr.com/technoshaman/technocaveonmars" />
+<Link js_id="TECHN0SHAMAN-http://techn0shaman.one/sketchup/matrix/home.html" pos="-21.5 54.100002 76.900002" xdir="0.699389 0 0.714741" zdir="-0.714741 0 0.699389" scale="1.8 2.5 1" col="#40c040" url="http://techn0shaman.one/sketchup/matrix/home.html" />
+<Object id="plane" js_id="technoshaman_999-30-1517780591" pos="-14.6 55.100002 87" xdir="-0.738893 0 -0.673823" zdir="0.673823 0 -0.738893" scale="2.3 1.2 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/UQhRdkp.png" />
+<Object id="shaderdome" js_id="shader_dome" scale="10 10 10" shader_id="tydyshader" rotate_deg_per_sec="3" />
+<Object id="http://techn0shaman.one/misc/cactus/pcactus/finalcactus.fbx" js_id="TECHNOSHAMAN-1-1539924195" pos="-18.095001 50.241001 119.000008" xdir="-0.99599 0.020427 -0.087104" ydir="0.017442 0.999239 0.034899" zdir="0.087751 0.03324 -0.995588" scale="0.008 0.008 0.008" cull_face="none" />
+<Object id="mysterybox" js_id="music_mystery" pos="26 50.805897 63" xdir="0.317454 -0.133797 0.938787" ydir="0.116681 0.987984 0.101353" zdir="-0.941068 0.077364 0.329251" cull_face="none" />
+<Object id="http://techn0shaman.one/blender/zachspatio/ZACHSPATIO/patioscan.obj.gz" js_id="TECHNOSHAMAN-2-1539050551" pos="-21.5 51.5 135.600006" xdir="-0.87462 0 0.484809" zdir="-0.484809 0 -0.87462" lighting="false" cull_face="none" />
+<Object id="http://techn0shaman.one/misc/trees/Horsetail/Horsetail.obj" js_id="TECHNOSHAMAN-7-1528585018" pos="14.3 48 103.200005" xdir="-0.842254 -0.00013 -0.539081" ydir="-0.000003 1 -0.000237" zdir="0.539081 -0.000198 -0.842254" />
+<Object id="plane" js_id="technoshaman_999-20-1517772895" pos="-26.1 55.799999 97.599998" xdir="-0.5 0 -0.866026" zdir="0.866026 0 -0.5" scale="3.3 2 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/wTYh8kh.png" />
+<Object id="ring" js_id="technoshaman-13-1521603575" pos="38 85.800003 173.5" xdir="0.049855 0.934848 -0.351532" ydir="-0.874191 -0.129374 -0.468031" zdir="-0.483017 0.33064 0.810785" scale="0.05 0.05 0.05" cull_face="none" rotate_deg_per_sec="9" />
+<Object id="plane" js_id="technoshaman_999-26-1517773298" pos="-19.800001 55.799999 89.800003" xdir="-0.262378 0 0.964965" zdir="-0.964965 0 -0.262378" scale="1.9 1.4 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/Upsuikt.jpg" />
+<Object id="water" pos="-17.200001 48.100002 38" xdir="0 0 1" ydir="0 -1 0" zdir="1 0 0" scale="7 2 5" col="#df013a" cull_face="none" collision_id="water" />
+<Object id="trees" js_id="TECHNOSHAMAN-4-1543213714" pos="-63.400002 50.799999 171.300003" xdir="-1 0 0" zdir="0 0 -1" scale="0.03 0.03 0.03" lighting="false" shader_id="nightsky" cull_face="none" />
+<Object id="plane" js_id="TECHNOSHAMAN-8-1539056814" pos="1 53.900002 101.199997" xdir="-0.825126 0 0.564949" zdir="-0.564949 0 -0.825126" scale="5 5 1" lighting="false" cull_face="none" image_id="http://techn0shaman.one/misc/newmexicosign.png" />
+<Object id="http://techn0shaman.one/misc/trees/Horsetail/Horsetail.obj" js_id="TECHNOSHAMAN-9-1528585030" pos="18.200001 48.099998 107.5" xdir="0.108942 -0.00023 -0.994048" ydir="-0.000003 1 -0.000232" zdir="0.994048 0.000028 0.108942" />
+<Object id="boat" js_id="boat1" pos="8.900001 48.100391 118.200005" />
+<Object id="plane" js_id="TECHNOSHAMAN-0-1543220356" pos="-51.700001 50.900002 183.5" xdir="-0.866026 0 -0.5" zdir="0.5 0 -0.866026" scale="5.8 5.3 1" lighting="false" cull_face="none" image_id="http://techn0shaman.one/Images/.gif" />
+<Object id="http://techn0shaman.one/misc/mountainwall/mountain%20wall.dae.gz" js_id="TECHNOSHAMAN-1-1529689010" pos="-118 94 94" xdir="0.866025 0 -0.500001" zdir="0.500001 0 0.866025" collision_id="http://techn0shaman.one/misc/mountainwall/mountain%20wall.dae.gz" />
+<Object id="plane" js_id="technoshaman-4-1521605193" pos="8.700001 50.200001 121.099998" xdir="0.5 0 0.866026" zdir="-0.866026 0 0.5" scale="1.2 0.6 1" lighting="false" cull_face="none" collision_id="plane" image_id="http://techn0shaman.one/Images/seadoos.png" />
+<Object id="plane" js_id="technoshaman_999-23-1517779990" pos="-17 55.200001 86.200005" xdir="-0.99984 0 -0.017875" zdir="0.017875 0 -0.99984" scale="2.8 1.8 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/qhI5Iqs.png" />
+<Object id="http://techn0shaman.one/misc/trees/Horsetail/Horsetail.obj" js_id="TECHNOSHAMAN-1-1528584986" pos="19.9 48.600002 95.700005" xdir="-0.284216 -0.06261 0.956714" ydir="0.09922 0.990587 0.094303" zdir="-0.953613 0.121728 -0.275328" />
+<Object id="plane" js_id="technoshaman_999-3-1517772248" pos="-34.900002 50.299999 128.100006" xdir="0.866026 0 -0.5" zdir="0.5 0 0.866026" scale="3 3 1" lighting="false" cull_face="none" collision_id="plane" image_id="https://i.imgur.com/kCU6Hr1.png" />
+<Object id="concord" js_id="technoshaman-1-1527303400" pos="103 37 89" xdir="-0.258821 0 -0.965925" zdir="0.965925 0 -0.258821" scale="0.006 0.006 0.006" cull_face="none" />
+<Object id="plane" js_id="technoshaman-3-1521087522" pos="-2.5 55.100002 80.700005" xdir="0.999279 -0 -0.037964" ydir="0.007286 0.981412 0.191774" zdir="0.037258 -0.191912 0.980705" scale="1.8 1.6 1" lighting="false" cull_face="none" collision_id="plane" image_id="http://cybergaia.ca/VirtualReality/TECHNOSHAMANLOBBY/nsfw.jpg" />
+<Object id="psytranceportal" pos="37.490002 48.860001 119.599998" xdir="0.819026 -0.014296 -0.573578" ydir="0.017452 0.999848 -0" zdir="0.573491 -0.01001 0.819151" scale="0.02 0.02 0.02" cull_face="none" />
+<Object id="plane" js_id="technoshaman_999-37-1517781563" pos="-13 52 94.900002" xdir="0 0 -1" ydir="-1 0 0" zdir="0 1 0" scale="3 6 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/MMwq0Ua.png" />
+<Object id="dock" js_id="TECHNOSHAMAN-2-1543216175" pos="-57.299999 51.519997 161.300003" xdir="-0.999848 0 0.017452" zdir="-0.017452 0 -0.999848" scale="0.025 0.025 0.025" cull_face="none" collision_id="dock" />
+<Object id="plane" js_id="technoshaman_999-17-1517772794" pos="-15.7 53.689999 94.939995" xdir="0.173649 0 -0.984808" zdir="0.984808 0 0.173649" scale="5.1 4.9 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/d6HxvUq.png" />
+<Object id="http://techn0shaman.one/misc/trees/Horsetail/Horsetail.obj" js_id="TECHNOSHAMAN-8-1528585028" pos="10.038094 48.157768 105.258011" xdir="0.175842 -0.000234 -0.984418" ydir="-0.000002 1 -0.000238" zdir="0.984418 0.000044 0.175842" />
+<Object id="plane" js_id="technoshaman_999-21-1517772982" pos="-10.2 54.700001 123.700005" xdir="-0.861622 0 0.507551" zdir="-0.507551 0 -0.861622" scale="6.6 6.3 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/ntywIWc.gif" />
+<Object id="plane" js_id="technoshaman_999-29-1517773438" pos="-49.900002 48.700001 148.599991" xdir="-0.026105 0.062275 -0.997717" ydir="-0.266457 0.961516 0.066987" zdir="0.963493 0.267597 -0.008507" lighting="false" cull_face="none" collision_id="plane" image_id="https://i.imgur.com/P0wmp3x.gif" />
+<Object id="plane" js_id="technoshaman_999-35-1517781440" pos="-6.1 55.399998 86.300003" xdir="0.999916 -0.002633 -0.012688" ydir="0.005298 0.976636 0.214837" zdir="0.011826 -0.214886 0.976568" scale="5 4 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/VsJAmJy.png" />
+<Object id="cntower" js_id="technoshaman_999-48-1517774635" pos="-10 43 -15" xdir="-1 0 0" zdir="0 0 -1" scale="0.2 0.2 0.2" />
+<Object id="boat" js_id="boat2" pos="12.873913 48.158157 118.787148" />
+<Object id="http://techn0shaman.one/misc/trees/Blue%20GrubTub%20Fungus/Blue%20GrubTub%20Fungus.obj" js_id="TECHNOSHAMAN-1-1528583131" pos="-22 52 94" xdir="-0.581191 0.06141 -0.811447" ydir="0.052972 0.997889 0.037579" zdir="0.812041 -0.021143 -0.583217" scale="5 5 5" lighting="false" cull_face="none" />
+<Object id="plane" js_id="technoshaman_999-22-1517779926" pos="-26.9 55.299999 95.400002" xdir="0.005377 0 -0.999986" zdir="0.999986 0 0.005377" scale="2.1 1.2 1" lighting="false" cull_face="none" collision_id="plane" image_id="https://i.imgur.com/Yjs5NNb.jpg" />
+<Object id="plane" js_id="technoshaman_999-29-1517780543" pos="-12.7 55.200001 84.5" xdir="0.194498 -0 0.980903" ydir="-0.043513 0.999016 0.008628" zdir="-0.979937 -0.04436 0.194306" scale="2.7 1.6 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/tpXxE6Y.png" />
+<Object id="plane" js_id="technoshaman_999-24-1517773110" pos="-19.1 52.137001 94.692001" xdir="-0.084561 0.045482 -0.99538" ydir="-0.996304 0.01129 0.085155" zdir="0.015111 0.998901 0.044359" scale="3.1 2.3 1" lighting="false" cull_face="none" collision_id="plane" image_id="https://i.imgur.com/48c87Hd.gif" />
+<Object id="plane" js_id="technoshaman_999-32-1517773499" pos="7 61 149" xdir="0.707108 -0 -0.707105" ydir="0.005407 0.999971 0.005407" zdir="0.707085 -0.007646 0.707088" scale="4.6 3.3 1" lighting="false" cull_face="none" collision_id="plane" image_id="https://i.imgur.com/JXjcpUt.gif" />
+<Object id="plane" js_id="technoshaman_999-20-1517779832" pos="-17.200001 55.300003 92.700005" xdir="0.960398 0 0.278633" zdir="-0.278633 0 0.960398" scale="2 1.6 1" lighting="false" cull_face="none" collision_id="plane" image_id="https://i.imgur.com/UTGyljl.jpg" />
+<Object id="plane" js_id="TECHNOSHAMAN-7-1539055946" pos="192 241 441" xdir="-0.772748 0 0.634713" zdir="-0.634713 0 -0.772748" scale="865 528 1" lighting="false" collision_id="plane" image_id="http://techn0shaman.one/misc/sandia.png" />
+<Object id="plane" js_id="technoshaman_999-33-1517781217" pos="-18.200001 55.700001 82.400002" xdir="0.702973 0 -0.711216" ydir="0.002043 0.999996 0.00202" zdir="0.711213 -0.002873 0.70297" scale="2.7 2.1 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/z9PCjXz.png" />
+<Object id="plane" js_id="technoshaman-1-1527363535" pos="-14.3 55.200001 90.300003" xdir="0.280647 0 -0.959811" zdir="0.959811 0 0.280647" scale="3.2 1.5 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/6hzhmN0.png" />
+<Object id="plane" js_id="technoshaman_999-21-1517779887" pos="-26.700001 53.599998 97.900002" xdir="-0.489997 0 -0.871724" zdir="0.871724 0 -0.489997" scale="2.6 2.6 1" lighting="false" cull_face="none" collision_id="plane" image_id="https://i.imgur.com/SLTAYQ5.gif" />
+<Object id="plane" js_id="technoshaman_999-25-1517773259" pos="-26.1 55.899998 88.900002" xdir="0.25001 0 -0.968243" zdir="0.968243 0 0.25001" scale="3.1 1.4 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/O2oqexF.png" />
+<Object id="ring" pos="38 85 174" xdir="-0.815739 0.018983 0.578109" ydir="-0.113871 -0.985173 -0.128328" zdir="0.567101 -0.170512 0.805806" scale="0.05 0.05 0.05" cull_face="none" rotate_deg_per_sec="9" />
+<Object id="plane" js_id="technoshaman_999-24-1517780068" pos="-11.5 55.400002 81.099998" xdir="0 0 1" zdir="-1 0 0" scale="2.7 1.6 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/vspMM9n.png" />
+<Object id="http://techn0shaman.one/sketchup/hive/arch/Ekotemplet.dae" js_id="TECHN0SHAMAN-1-1528528171" pos="49 48 172" xdir="-0.174527 -0.006241 0.984632" ydir="0.031157 0.999444 0.011858" zdir="-0.984159 0.032748 -0.174236" lighting="false" />
+<Object id="plane" js_id="technoshaman_999-1-1517777308" pos="-19.300001 55.700001 87.400002" xdir="-0.485255 0 0.874373" zdir="-0.874373 0 -0.485255" scale="2.4 1.5 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/PMEOqM1.png" />
+<Object id="http://techn0shaman.one/misc/Wumpa%20Fruit/wumpa_fruit.obj" js_id="TECHNOSHAMAN-5-1528583262" pos="-22.4 53 87.5" xdir="-0.664369 -0.050579 0.745691" ydir="0.040465 0.99381 0.10346" zdir="-0.746309 0.09891 -0.65821" scale="0.2 0.2 0.2" lighting="false" cull_face="none" rotate_deg_per_sec="6" />
+<Object id="plane" js_id="technoshaman_999-25-1517780179" pos="-22 53.599998 98.800003" xdir="-0.999843 0 0.017742" zdir="-0.017742 0 -0.999843" scale="2 3.3 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/dyswUaO.jpg" />
+<Object id="plane" js_id="technoshaman_999-6-1517772351" pos="-30.5 48.289997 134.209991" xdir="0.325742 0.00445 -0.945448" ydir="-0.945354 0.016426 -0.325632" zdir="0.014081 0.999855 0.009558" scale="6.85 7.06 1" cull_face="none" collision_id="plane" image_id="https://i.imgur.com/DTW7xtk.png" />
+<Object id="plane" js_id="technoshaman_999-7-1517772489" pos="-25.9 53.099998 125.599998" xdir="-0.866026 0 0.5" zdir="-0.5 0 -0.866026" collision_id="plane" image_id="https://i.imgur.com/i644i0V.jpg" />
+<Object id="plane" js_id="technoshaman_999-15-1517772665" pos="-15.599999 53.799999 99.599998" xdir="0.000001 0 -1" zdir="1 0 0.000001" scale="4 4 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/Sup8UQP.jpg" />
+<Object id="plane" js_id="TECHNOSHAMAN-9-1539057031" pos="1.1 54.200001 101.099998" xdir="-0.825126 0 0.564949" zdir="-0.564949 0 -0.825126" scale="1.2 0.6 1" lighting="false" cull_face="none" image_id="http://techn0shaman.one/misc/toronto.png" />
+<Object id="plane" js_id="technoshaman-4-1520472098" pos="14.6 50.600002 287.100006" xdir="0.707106 0 -0.707107" zdir="0.707107 0 0.707106" scale="5 4 1" lighting="false" cull_face="none" collision_id="plane" image_id="https://i.imgur.com/1poD8uR.gif" />
+<Object id="http://techn0shaman.one/misc/mountainwall/mountain%20wall.dae.gz" js_id="TECHNOSHAMAN-1-1529690405" pos="-73 80 346" xdir="0.482963 -0.258819 -0.836517" ydir="0.129409 0.965926 -0.224144" zdir="0.866026 0 0.5" />
+<Object id="lapras" js_id="boat0" pos="-21 47.800388 144.300003" />
+<Object id="http://techn0shaman.one/misc/Ghost/Ghost.DAE" js_id="TECHNOSHAMAN-1-1528563899" pos="-3.1 51.600002 91.099998" xdir="-0.988458 0.023716 0.149626" ydir="0.026862 0.999458 0.019042" zdir="-0.149093 0.022841 -0.988559" lighting="false" collision_id="http://techn0shaman.one/misc/Ghost/Ghost.DAE" />
+<Object id="plane" js_id="technoshaman_999-28-1517773358" pos="-19.4 55 98.700005" xdir="-0.995802 0 0.091531" zdir="-0.091531 0 -0.995802" scale="2.1 1.6 1" lighting="false" cull_face="none" image_id="https://i.imgur.com/YmAHwOA.png" />
+<Object id="http://techn0shaman.one/misc/dome/speakrs.obj" js_id="TECHNOSHAMAN-0-1543219877" pos="-50 48 179" xdir="0.798635 0 0.601816" zdir="-0.601816 0 0.798635" scale="0.02 0.025 0.02" />
+<Sound id="crickets" pos="-36 52.299999 99.800003" visible="false" rect="-1000 -1000 1000 1000" loop="true" gain="9" />
+<Sound id="hum" pos="-49.220001 48.139999 184.860001" visible="false" rect="-1000 -1000 1000 1000" gain="10" />
+<Sound id="music" js_id="snd_boat2" pos="12.873913 48.157768 118.787148" />
+<Sound id="ghost_snd" js_id="ghost_sound_jsid" pos="-3.1 51.600002 91.099998" />
+<Sound id="music" js_id="snd_boat1" pos="8.900001 48.100002 118.200005" />
+<Sound id="music" js_id="music_snd" loop="true" />
+<Sound id="music" js_id="snd_boat0" pos="-21 47.799999 144.300003" />
+</Room>
+</FireBoxRoom>
+-->
+<script src="https://web.janusvr.com/janusweb.js"></script>
+<script>elation.janusweb.init({url: document.location.href})</script>
+</body>
+</html>
